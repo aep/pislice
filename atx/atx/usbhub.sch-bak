@@ -1,0 +1,367 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text GLabel 7100 3200 2    50   Input ~ 0
+c1_UART_TX
+Text GLabel 7100 3300 2    50   Input ~ 0
+c1_UART_RX
+Wire Wire Line
+	4250 3300 5500 3300
+Wire Wire Line
+	2250 2700 2250 2750
+Wire Wire Line
+	2550 3300 2850 3300
+Wire Wire Line
+	2550 2700 2550 3300
+Wire Wire Line
+	2250 2700 2550 2700
+Connection ~ 2250 2700
+Wire Wire Line
+	2250 2650 2250 2700
+$Comp
+L Device:R R?
+U 1 1 5FE12603
+P 2250 2500
+F 0 "R?" V 2043 2500 50  0000 C CNN
+F 1 "47K" V 2134 2500 50  0000 C CNN
+F 2 "Resistors:0603" V 2180 2500 50  0001 C CNN
+F 3 "~" H 2250 2500 50  0001 C CNN
+	1    2250 2500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2250 3150 2250 3050
+$Comp
+L power:GND #PWR?
+U 1 1 5FE1260A
+P 2250 3150
+F 0 "#PWR?" H 2250 2900 50  0001 C CNN
+F 1 "GND" H 2255 2977 50  0000 C CNN
+F 2 "" H 2250 3150 50  0001 C CNN
+F 3 "" H 2250 3150 50  0001 C CNN
+	1    2250 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FE12610
+P 2250 2900
+F 0 "R?" V 2043 2900 50  0000 C CNN
+F 1 "100K" V 2134 2900 50  0000 C CNN
+F 2 "Resistors:0603" V 2180 2900 50  0001 C CNN
+F 3 "~" H 2250 2900 50  0001 C CNN
+	1    2250 2900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2000 3900 2000 2050
+Wire Wire Line
+	2550 5650 2550 5500
+$Comp
+L power:GND #PWR?
+U 1 1 5FE12618
+P 2550 5650
+F 0 "#PWR?" H 2550 5400 50  0001 C CNN
+F 1 "GND" H 2555 5477 50  0000 C CNN
+F 2 "" H 2550 5650 50  0001 C CNN
+F 3 "" H 2550 5650 50  0001 C CNN
+	1    2550 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 5650 3550 5300
+$Comp
+L power:GND #PWR?
+U 1 1 5FE1261F
+P 3550 5650
+F 0 "#PWR?" H 3550 5400 50  0001 C CNN
+F 1 "GND" H 3555 5477 50  0000 C CNN
+F 2 "" H 3550 5650 50  0001 C CNN
+F 3 "" H 3550 5650 50  0001 C CNN
+	1    3550 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 5100 2550 5200
+Wire Wire Line
+	2550 5100 2850 5100
+$Comp
+L Device:R R?
+U 1 1 5FE12627
+P 2550 5350
+F 0 "R?" V 2343 5350 50  0000 C CNN
+F 1 "2.7K 1%" V 2434 5350 50  0000 C CNN
+F 2 "Resistors:0603" V 2480 5350 50  0001 C CNN
+F 3 "~" H 2550 5350 50  0001 C CNN
+	1    2550 5350
+	-1   0    0    1   
+$EndComp
+NoConn ~ 4250 5100
+Wire Wire Line
+	2000 3900 2550 3900
+Wire Wire Line
+	2550 3900 2550 3800
+Connection ~ 2550 3900
+Wire Wire Line
+	2550 4000 2550 3900
+Wire Wire Line
+	2850 4000 2550 4000
+Wire Wire Line
+	2850 3800 2550 3800
+Wire Wire Line
+	2850 3900 2550 3900
+Wire Wire Line
+	3050 2900 3050 2800
+$Comp
+L power:GND #PWR?
+U 1 1 5FE12636
+P 3050 2900
+F 0 "#PWR?" H 3050 2650 50  0001 C CNN
+F 1 "GND" H 3055 2727 50  0000 C CNN
+F 2 "" H 3050 2900 50  0001 C CNN
+F 3 "" H 3050 2900 50  0001 C CNN
+	1    3050 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 2500 3350 3100
+Connection ~ 3350 2500
+Wire Wire Line
+	3050 2500 3350 2500
+$Comp
+L Device:C C?
+U 1 1 5FE1263F
+P 2750 2450
+F 0 "C?" H 2865 2496 50  0000 L CNN
+F 1 "10uF" H 2865 2405 50  0000 L CNN
+F 2 "Capacitors:0603" H 2788 2300 50  0001 C CNN
+F 3 "~" H 2750 2450 50  0001 C CNN
+	1    2750 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 2050 2750 2050
+Wire Wire Line
+	2750 2050 3600 2050
+Connection ~ 2750 2050
+Wire Wire Line
+	2750 2050 2750 2300
+$Comp
+L power:GND #PWR?
+U 1 1 5FE12649
+P 2750 2700
+F 0 "#PWR?" H 2750 2450 50  0001 C CNN
+F 1 "GND" H 2755 2527 50  0000 C CNN
+F 2 "" H 2750 2700 50  0001 C CNN
+F 3 "" H 2750 2700 50  0001 C CNN
+	1    2750 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 2700 2750 2600
+$Comp
+L Device:C C?
+U 1 1 5FE12650
+P 3050 2650
+F 0 "C?" H 3165 2696 50  0000 L CNN
+F 1 "1uF" H 3165 2605 50  0000 L CNN
+F 2 "Capacitors:0603" H 3088 2500 50  0001 C CNN
+F 3 "~" H 3050 2650 50  0001 C CNN
+	1    3050 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 4450 2850 4800
+Wire Wire Line
+	2250 4450 2250 4500
+Wire Wire Line
+	2850 4450 2250 4450
+Wire Wire Line
+	2250 4900 2250 4800
+Wire Wire Line
+	2850 4900 2250 4900
+$Comp
+L Device:Crystal Y?
+U 1 1 5FE1265B
+P 2250 4650
+F 0 "Y?" V 2204 4781 50  0000 L CNN
+F 1 "ABL-12.000MHZ-B2" V 2295 4781 50  0000 L CNN
+F 2 "Clocks:HC49US" H 2250 4650 50  0001 C CNN
+F 3 "~" H 2250 4650 50  0001 C CNN
+	1    2250 4650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4250 2700 4250 2600
+$Comp
+L power:GND #PWR?
+U 1 1 5FE12662
+P 4250 2700
+F 0 "#PWR?" H 4250 2450 50  0001 C CNN
+F 1 "GND" H 4255 2527 50  0000 C CNN
+F 2 "" H 4250 2700 50  0001 C CNN
+F 3 "" H 4250 2700 50  0001 C CNN
+	1    4250 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 2050 4250 2300
+$Comp
+L Device:C C?
+U 1 1 5FE12669
+P 4250 2450
+F 0 "C?" H 4365 2496 50  0000 L CNN
+F 1 "10uF" H 4365 2405 50  0000 L CNN
+F 2 "Capacitors:0603" H 4288 2300 50  0001 C CNN
+F 3 "~" H 4250 2450 50  0001 C CNN
+	1    4250 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 3100 3850 3100
+Wire Wire Line
+	3800 2050 4250 2050
+Wire Wire Line
+	3800 3100 3800 2050
+Wire Wire Line
+	3600 3100 3550 3100
+Wire Wire Line
+	3600 2050 3600 3100
+Connection ~ 3600 3100
+Wire Wire Line
+	3650 3100 3600 3100
+Connection ~ 3800 3100
+Wire Wire Line
+	3750 3100 3800 3100
+$Comp
+L Interface_USB:FE1.1s U?
+U 1 1 5FE12678
+P 3550 4200
+F 0 "U?" H 3550 3011 50  0000 C CNN
+F 1 "FE1.1s" H 3550 2920 50  0000 C CNN
+F 2 "Package_SO:SSOP-28_3.9x9.9mm_P0.635mm" H 4600 2700 50  0001 C CNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2991/FE1.1s+Data+Sheet+(Rev.+1.0).pdf" H 3550 4200 50  0001 C CNN
+	1    3550 4200
+	1    0    0    -1  
+$EndComp
+Text GLabel 2250 1900 1    50   Input ~ 0
+MGM-5V
+Wire Wire Line
+	2250 1900 2250 2350
+Text GLabel 3350 1900 1    50   Input ~ 0
+MGM-5V
+Wire Wire Line
+	3350 1900 3350 2500
+$Comp
+L Device:R R?
+U 1 1 5FE12682
+P 6650 3200
+F 0 "R?" V 6550 3250 50  0000 C CNN
+F 1 "0R" V 6550 3150 50  0000 C CNN
+F 2 "Resistors:0603" V 6580 3200 50  0001 C CNN
+F 3 "~" H 6650 3200 50  0001 C CNN
+	1    6650 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FE12688
+P 6650 3300
+F 0 "R?" V 6750 3350 50  0000 C CNN
+F 1 "0R" V 6750 3250 50  0000 C CNN
+F 2 "Resistors:0603" V 6580 3300 50  0001 C CNN
+F 3 "~" H 6650 3300 50  0001 C CNN
+	1    6650 3300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6800 3200 7100 3200
+Wire Wire Line
+	6800 3300 7100 3300
+$Comp
+L power:GND #PWR?
+U 1 1 5FE12690
+P 5900 4250
+F 0 "#PWR?" H 5900 4000 50  0001 C CNN
+F 1 "GND" H 5905 4077 50  0000 C CNN
+F 2 "" H 5900 4250 50  0001 C CNN
+F 3 "" H 5900 4250 50  0001 C CNN
+	1    5900 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 4000 5900 4250
+Text GLabel 2700 3500 0    50   Input ~ 0
+usb-root-d+
+Text GLabel 2700 3600 0    50   Input ~ 0
+usb-root-d-
+Wire Wire Line
+	2700 3500 2850 3500
+Wire Wire Line
+	2700 3600 2850 3600
+Text GLabel 4600 3600 2    50   Input ~ 0
+usb-hub2-d+
+Text GLabel 4600 3700 2    50   Input ~ 0
+usb-hub2-d-
+Wire Wire Line
+	4250 3700 4600 3700
+Wire Wire Line
+	4250 3600 4600 3600
+$Comp
+L Interface_USB:MCP2221AxML U?
+U 1 1 5FE1269F
+P 5900 3400
+F 0 "U?" H 5900 2711 50  0000 C CNN
+F 1 "MCP2221AxML" V 5900 3400 50  0000 C CNN
+F 2 "Package_DFN_QFN:QFN-16-1EP_4x4mm_P0.65mm_EP2.5x2.5mm" H 5900 4400 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20005565B.pdf" H 5900 4100 50  0001 C CNN
+	1    5900 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 2700 6000 2700
+Connection ~ 5900 2700
+Wire Wire Line
+	6300 3200 6500 3200
+Wire Wire Line
+	6300 3300 6500 3300
+Wire Wire Line
+	4250 3400 5500 3400
+NoConn ~ 5500 2900
+Text GLabel 5900 2300 1    50   Input ~ 0
+MGM-3V
+Wire Wire Line
+	5900 2300 5900 2700
+Text GLabel 6500 3600 2    50   Input ~ 0
+c1-led-activity
+Text GLabel 6500 3500 2    50   Input ~ 0
+c1-rpiboot
+Text GLabel 6500 3700 2    50   Input ~ 0
+12V_ENABLE
+Wire Wire Line
+	6500 3500 6300 3500
+Wire Wire Line
+	6300 3600 6500 3600
+Wire Wire Line
+	6500 3700 6300 3700
+Wire Wire Line
+	6500 3800 6300 3800
+Text GLabel 6500 3800 2    50   Input ~ 0
+12V_GOOD
+Text GLabel 4850 3300 1    50   Input ~ 0
+usb-hub1-d+
+Text GLabel 5000 3400 1    50   Input ~ 0
+usb-hub1-d-
+$EndSCHEMATC

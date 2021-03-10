@@ -1,0 +1,32 @@
+Row,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet
+1,Unpolarized capacitor,C,C3,100pF,C_0603_1608Metric,1,~
+2,Unpolarized capacitor,C,C7,100nF,C_0603_1608Metric,1,~
+3,Unpolarized capacitor,C,C1 C2 C4 C5 C6,10uf,C_0603_1608Metric,5,~
+4,Unpolarized capacitor,C,C8,10uF,C_1206_3216Metric,1,~
+5,Light emitting diode,LED,D1 D2 D3 D4 D5,LED,LED_0603_1608Metric,5,~
+6,,HX6096NL,K1,HX6096NL,HX6096NL,1,
+7,Resistor,R,R8 R9 R16 R17,75R,R_0603_1608Metric,4,~
+8,Resistor,R,R1 R2 R3 R4 R11,300R,R_0603_1608Metric,5,~
+9,Resistor,R,R6,600R,R_0603_1608Metric,1,~
+10,Resistor,R,R5,DNC,R_0603_1608Metric,1 (DNC),~
+11,IC REG LINEAR 3.3V 800MA SOT223,AZ1117CH-3_3TRG1,U3,AZ1117CH-3_3TRG1,SOT-223,1,https://www.diodes.com/assets/Datasheets/AZ1117C.pdf
+12,,Conn_TE-M.2-0.5-67P,U1,Conn_TE-M.2-0.5-67P,Conn_TE-M.2-0.5-67P-NVME,1,
+13,,RPI4CM,U2,RPI4CM-aep,rpiCM4,1,
+14,,dummy,X2 X3,dummy,HRS_DF40HC(3.0)-100DS-0.4V(58,2,
+
+
+
+
+
+Project info:
+Schematic:,pislice
+Variant:,default
+Revision:,
+Date:,2020-12-31_11-08-54
+KiCad Version:,5.1.8
+Statistics:
+Component Groups:,14
+Component Count:,30
+Fitted Components:,30
+Number of PCBs:,1
+Total Components:,30

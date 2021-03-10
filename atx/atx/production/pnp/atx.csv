@@ -1,0 +1,39 @@
+Row,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet,PARTREV,MAXIMUM_PACKAGE_HEIGHT
+1,Unpolarized capacitor,C,C3 C4 C6 C7,14pF,C_0603_1608Metric,4,~,,
+2,Unpolarized capacitor,C,C? C1 C2,100nF,C_0603_1608Metric,3,~,,
+3,Unpolarized capacitor,C,C5 C8,10uF,C_0603_1608Metric,2,~,,
+4,Light emitting diode,LED,D1 D2 D3,LED,LED_0603_1608Metric,3,~,,
+5,"Generic connector, double row, 02x20, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_02x20_Odd_Even,J1,2x20,PinHeader_2x20_P2.54mm_Vertical,1,,,
+6,ATX Power supply 24pins,ATX-24,J3,ATX-24,Molex_Mini-Fit_Jr_5566-24A2_2x12_P4.20mm_Vertical,1,https://www.intel.com/content/dam/www/public/us/en/documents/guides/power-supply-design-guide-june.pdf#page=33,,
+7,"Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_02x03_Odd_Even,J4,Conn_02x03_Odd_Even,PinHeader_2x03_P2.54mm_Vertical,1,~,,
+8,,SS-74500-024,J2,SS-74500-024,BEL_SS-74500-024,1,,A3,27.41mm
+9,USB Type B connector,USB_B,J5 J7,USB_B,CUI_UJ2-BH-1-TH,2, ~,,
+10,"Fan, tacho output, PWM input, 4-pin connector",Fan_4pin,M?,Fan_4pin,FanPinHeader_1x04_P2.54mm_Vertical,1,http://www.formfactors.org/developer%5Cspecs%5Crev1_2_public.pdf,,
+11,Resistor,R,R1 R2 R3 R4 R6 R7 R14 R15 R17 R18,300R,R_0603_1608Metric,10,~,,
+12,Resistor,R,R16 R19 R20,1K,R_0603_1608Metric,3,~,,
+13,Resistor,R,R8 R9 R10 R11 R12 R13,10K,R_0603_1608Metric,6,~,,
+14,Resistor,R,R5,12K 1%,R_0603_1608Metric,1,~,,
+15,Resistor,R,R?,36K 1%,R_0603_1608Metric,1,~,,
+16,Resistor,R,R?,NC,R_0603_1608Metric,1,~,,
+17,,EMC2301,U?,EMC2301,MSOP-8_3x3mm_P0.65mm,1,,,
+18,"ARM Cortex-M3 MCU, 64KB flash, 10KB RAM, 32MHz, 1.65-3.6V, 37 GPIO, LQFP-48",STM32L151C8Tx,U1,STM32L151C8T6,LQFP-48_7x7mm_P0.5mm,1,http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf,,
+19,USB 2.0 Hi-Speed Hub Controller,USB2514B_Bi,U4,USB2514B_Bi,QFN-36-1EP_6x6mm_P0.5mm_EP3.7x3.7mm,1,http://ww1.microchip.com/downloads/en/DeviceDoc/00001692C.pdf,,
+20,,pislice-v1-PCIE-1X,W1 W2 W3 W4,pislice-v1-PCIE-1X,piwing_pcie1,4,,,
+21,"Four pin crystal, GND on pins 2 and 4, small symbol",Crystal_GND24_Small,Y1 Y2,24Mhz X1E0000210264,Crystal_SMD_SeikoEpson_TSX3225-4Pin_3.2x2.5mm,2,~,,
+
+
+
+
+
+Project info:
+Schematic:,atx
+Variant:,default
+Revision:,
+Date:,2020-12-18_21-14-17
+KiCad Version:,5.1.8
+Statistics:
+Component Groups:,21
+Component Count:,50
+Fitted Components:,50
+Number of PCBs:,1
+Total Components:,50
